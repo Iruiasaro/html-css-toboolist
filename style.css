@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px
+}
+
+header {
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: white;
+}
+
+#logo {
+    width: 50px;
+}
+
+#title {
+    display: inline-block   ;
+    font-size: 40px;
+    vertical-align: top;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+}
