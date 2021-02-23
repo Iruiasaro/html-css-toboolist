@@ -3,38 +3,43 @@
     margin: 0;
 }
 
+body {
+    background-color: rgb(243, 243, 243)
+}
+
 header {
     padding: 10px 20px;
-
+    background-color: white;
 }
 
 .logo-principale {
     display: inline-block;
     vertical-align: middle;
+    background-color: white;
 }
 
 #logo {
     width: 50px;
+    background-color: white;
 }
 
 #title {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 main {
-    background-color: rgb(254, 255, 255);
     padding: 8px 0px;
 }
 
 .contenitore {
     width: 65%;
-    background-color: white;
-    margin: auto;
     border-radius: 10px;
+    margin: auto;
+    background-color: white;
 }
 
 .bottoni {
-    padding: 5px 5px
+    padding: 5px 5px 5px 30px;
 }
 
 .button {  
@@ -44,7 +49,7 @@ main {
 
 #button-left {
     border: none;
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: rgb(98, 172, 243);
 }
 
@@ -53,3 +58,61 @@ main {
     color: rgb(208, 208, 208);
     border: 1px solid rgb(174, 175, 175);
 }
+
+.container-list {
+    padding: 35px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.titolo-lista {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.item {
+    margin-top: 12px;
+}
+
+.box-1 {
+    border-radius: 5px;
+    display: inline-block;
+    padding: 0px 5px;
+    font-size: 10px;
+    color: white;
+    height: 25px;
+    vertical-align: middle;
+    line-height: 25px;
+}
+
+dl:last-child {
+    margin-bottom: 30px;
+}
+
+#editorial {
+    background-color:rgb(87, 146, 194);
+}
+
+#q1-goals {
+    background-color: rgb(177, 150, 242);
+}
+
+#recruiting {
+    background-color: rgb(140, 204, 184);
+}
+
+#mobile {
+    background-color: rgb(237, 164, 75);
+}
+
+#website {
+    background-color: rgb(243, 132, 193);
+}
+
+#sales{
+    background-color: rgb(184, 201, 32);
+}
+
+
