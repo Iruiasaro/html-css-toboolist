@@ -1,13 +1,16 @@
-*{
+* {
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px
+    margin: 0;
 }
 
 header {
-    padding-top: 15px;
-    padding-left: 15px;
-    background-color: white;
+    padding: 10px 20px;
+
+}
+
+.logo-principale {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 #logo {
@@ -15,11 +18,38 @@ header {
 }
 
 #title {
-    display: inline-block   ;
-    font-size: 40px;
-    vertical-align: top;
+    font-size: 50px;
 }
 
-body {
-    background-color: rgb(245, 245, 245);
+main {
+    background-color: rgb(254, 255, 255);
+    padding: 8px 0px;
+}
+
+.contenitore {
+    width: 65%;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.bottoni {
+    padding: 5px 5px
+}
+
+.button {  
+    height: 22px;
+    border-radius: 3px;
+}
+
+#button-left {
+    border: none;
+    color: white;
+    background-color: rgb(98, 172, 243);
+}
+
+#button-right {
+    background-color: white;
+    color: rgb(208, 208, 208);
+    border: 1px solid rgb(174, 175, 175);
 }
